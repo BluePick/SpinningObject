@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361E75281FD4E05E00CA9470 /* UI Spin the Bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361E75271FD4E05E00CA9470 /* UI Spin the Bottle.jpg */; };
 		36A06B6F1FD0264200C65E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A06B6E1FD0264200C65E09 /* AppDelegate.swift */; };
 		36A06B711FD0264200C65E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A06B701FD0264200C65E09 /* ViewController.swift */; };
 		36A06B741FD0264200C65E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A06B721FD0264200C65E09 /* Main.storyboard */; };
 		36A06B761FD0264200C65E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A06B751FD0264200C65E09 /* Assets.xcassets */; };
 		36A06B791FD0264200C65E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A06B771FD0264200C65E09 /* LaunchScreen.storyboard */; };
-		36A06B821FD02B1600C65E09 /* UI Spin the Bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36A06B811FD02B1600C65E09 /* UI Spin the Bottle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361E75271FD4E05E00CA9470 /* UI Spin the Bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UI Spin the Bottle.jpg"; sourceTree = "<group>"; };
 		36A06B6B1FD0264200C65E09 /* SpinningObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinningObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A06B6E1FD0264200C65E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36A06B701FD0264200C65E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		36A06B751FD0264200C65E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A06B781FD0264200C65E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A06B7A1FD0264200C65E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36A06B811FD02B1600C65E09 /* UI Spin the Bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "UI Spin the Bottle.jpg"; path = "../../../Desktop/UI Spin the Bottle.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		36A06B801FD02AF600C65E09 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				36A06B811FD02B1600C65E09 /* UI Spin the Bottle.jpg */,
+				361E75271FD4E05E00CA9470 /* UI Spin the Bottle.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A06B821FD02B1600C65E09 /* UI Spin the Bottle.jpg in Resources */,
+				361E75281FD4E05E00CA9470 /* UI Spin the Bottle.jpg in Resources */,
 				36A06B791FD0264200C65E09 /* LaunchScreen.storyboard in Resources */,
 				36A06B761FD0264200C65E09 /* Assets.xcassets in Resources */,
 				36A06B741FD0264200C65E09 /* Main.storyboard in Resources */,
