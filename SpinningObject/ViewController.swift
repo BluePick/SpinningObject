@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 var intRandom:Int!
+    
+    var gameQuestions = [String]()
+    
     @IBOutlet weak var refreshButton: UIButton!
     @IBAction func refreshButton(_ sender: UIButton) {
         spinthebottle()
     }
     
+    @IBOutlet weak var lblQuestions: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-      
+      gameQuestions = ["question one", "question two", "question three","question four","question five","question six","question seven","question eight","question nine", "question ten"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,6 +33,13 @@ var intRandom:Int!
 
     func spinthebottle(){
          self.refreshButton.rotate360DegreesRandom()
+        var timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.getnewmessage), userInfo: nil, repeats: false)
+        
+    }
+    @objc func getnewmessage(){
+  
+        let rndNumber = Int(arc4random_uniform(UInt32(gameQuestions.count)))
+        lblQuestions.text = gameQuestions[rndNumber]
     }
     
 
